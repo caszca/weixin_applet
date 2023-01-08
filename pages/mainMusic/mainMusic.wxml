@@ -1,0 +1,40 @@
+<!--pages/mainMusic/mainMusic.wxml-->
+<view class="page">
+  <van-search
+  bind:click-input="serach"
+  shape="round"
+  placeholder="请输入搜索关键词"
+/>
+
+<swiper class="swiper" style="height: {{ImgHeight}}px;" indicator-dots circular autoplay interval="{{2000}}">
+<block wx:for="{{banners}}" wx:key="index">
+<swiper-item class="swiperItem">
+<image mode="widthFix" bindload="loadImg" class="swiperImg" src="{{item.imageUrl}}">
+</image></swiper-item>
+</block>
+</swiper>
+
+<view>
+  <musicTitle title="推荐歌曲"/>
+<recommendMusic musicMenu="{{musicMenu}}"/>
+</view>
+
+<view >
+  <musicTitle bind:clickMore="clickMore" title="推荐歌单"/>
+  <playlist music="{{recPlaylist}}"/>
+</view>
+ 
+<view >
+  <musicTitle bind:clickMore="clickMore" title="华语歌单"/>
+  <playlist music="{{chinaPlaylist}}"/>
+</view> 
+
+<view >
+  <musicTitle bind:clickMore="clickMore" title="欧美歌单"/>
+  <playlist music="{{westernPlaylist}}"/>
+</view> 
+</view>
+
+
+
+

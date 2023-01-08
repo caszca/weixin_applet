@@ -1,0 +1,16 @@
+<!--components/videoDetailItem/index.wxml-->
+<wxs src="/utils/format.wxs" module="fmt"></wxs>
+<view class="item">
+<view class="img">
+  <image class="image" mode="heightFix" src="{{data.coverUrl}}"></image>
+  <view class="icon">
+  <image mode="heightFix" class="iconImg" src="/assets/images/icons/play_icon.png"></image>
+  <text >{{fmt.formatShow(data.playTime)}}</text>
+  </view>
+</view>
+
+<view class="abstract">
+<view class="title">{{data.title}}</view>
+<view class="userName">{{data.creator[0].userName}}</view>
+</view>
+</view>

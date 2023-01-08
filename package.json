@@ -1,0 +1,25 @@
+{
+  "name": "edcheng_music",
+  "version": "1.0.0",
+  "description": "微信小程序版网易云",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caszca/weixin_applet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caszca/weixin_applet/issues"
+  },
+  "homepage": "https://github.com/caszca/weixin_applet#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.10.5",
+    "hy-event-store": "^1.2.1",
+    "underscore": "^1.13.6"
+  }
+}

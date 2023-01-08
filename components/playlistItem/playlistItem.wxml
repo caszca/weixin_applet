@@ -1,0 +1,17 @@
+<!--components/playlistItem/playlistItem.wxml-->
+<!-- 单个歌单组件 -->
+<wxs src="/utils/format.wxs" module="fmt"></wxs>
+<view class="content">
+ <view class="show">
+ <image class="img" mode="widthFix" src="{{playlist.coverImgUrl}}"></image>
+ <view class="playCount">
+ {{fmt.formatShow(playlist.playCount)}}
+ </view>
+ </view>
+
+<view class="description">
+{{playlist.name}}
+
+</view>
+
+</view>

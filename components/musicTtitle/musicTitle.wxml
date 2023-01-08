@@ -1,0 +1,9 @@
+<!--components/MusicTtitle/musicTitle.wxml-->
+
+<view class="content">
+<view class="title">{{title}}</view>
+<view class="recommend" bindtap="clickMore">
+<view class="more" >更多</view>
+<image class="arrow_right" mode="heightFix" src="/assets/images/icons/arrow-right.png"></image>
+</view>
+</view>

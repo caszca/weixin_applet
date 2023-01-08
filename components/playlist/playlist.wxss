@@ -1,0 +1,21 @@
+/* components/playlist/playlist.wxss */
+
+.scroll{
+  white-space: nowrap;
+  /* display: flex; */
+  /* width: 375px; */
+  margin-left: -20rpx;
+}
+
+.playlist{
+  display: inline-block;
+  width: 280rpx;
+  flex-shrink: 0;
+  margin-left: 20rpx;
+  white-space: normal;
+}
+
+.playlist:last-of-type{
+  margin-right: 20rpx;
+}
+

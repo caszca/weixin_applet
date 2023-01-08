@@ -1,0 +1,42 @@
+/* components/videoItem/videoItem.wxss */
+.videoItem{
+  margin-bottom: 26rpx;
+}
+.container{
+  position: relative;
+}
+
+.container .count{
+  position: absolute;
+  bottom: 10rpx;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 30rpx;
+  color: #fff;
+}
+.play{
+  
+  display: flex;
+  align-items: center;
+  margin: 0 0 6rpx 10rpx;
+}
+.playIcon{
+  width:36rpx;
+  margin-right: 10rpx;
+}
+.img{
+  width: 100%;
+  border-radius: 12rpx;
+}
+.introduce{
+  width: 100%;
+  font-size: 30rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;     /*多行文本隐藏 */
+  overflow: hidden;
+}
+.duration{
+  margin-right: 14rpx;
+}

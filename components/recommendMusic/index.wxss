@@ -1,0 +1,27 @@
+/* components/recommendMusic/index.wxss */
+.content{
+  padding-top: 20rpx;
+}
+.musicItem{
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.img{
+  height: 120rpx;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+}
+.name_arrow{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.singerName{
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  color: #999;
+}
+.arrow{
+  width: 46rpx;
+}

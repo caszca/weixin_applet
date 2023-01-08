@@ -1,0 +1,15 @@
+/* pages/mainMusic/mainMusic.wxss */
+.page{
+  padding: 0 20rpx;
+  --search-padding:20rpx 0
+}
+
+
+.swiperItem{
+  border-radius: 10rpx;
+  
+}
+.swiperImg{
+  width: 100%;
+}
+

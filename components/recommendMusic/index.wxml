@@ -1,0 +1,16 @@
+<!--components/recommendMusic/index.wxml-->
+<view class="content">
+
+<block wx:for="{{musicMenu}}" wx:key="id">
+  <view class="musicItem">
+ <image class="img" mode="heightFix" src="{{item.al.picUrl}}"></image>
+<view class="name_arrow">
+  <view class="name">
+ <view class="musicName">{{item.name}}</view>
+ <view class="singerName">{{item.ar[0].name}}</view>
+ </view>
+ <image class="arrow" mode="widthFix" src="/assets/images/icons/arrow-right.png"></image>
+</view>
+  </view>
+</block>
+</view>

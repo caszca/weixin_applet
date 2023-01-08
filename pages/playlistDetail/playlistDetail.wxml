@@ -1,0 +1,11 @@
+<!--pages/playlistDetail/playlistDetail.wxml-->
+
+<view class="content">
+
+  <block wx:for="{{playlist}}" wx:key="index">
+    <view class="item">
+  <playlistItem playlist="{{item}}"/>
+</view>
+</block>
+
+</view>

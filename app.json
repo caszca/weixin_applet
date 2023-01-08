@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/mainMusic/mainMusic",
+    "pages/mainVideo/mainVideo",
+    "pages/videoDetail/videoDetail",
+    "pages/musicSearch/musicSearch",
+    "pages/playlistDetail/playlistDetail"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/mainMusic/mainMusic",
+        "text": "音乐",
+        "iconPath": "/assets/images/tabbar/music_normal.png",
+        "selectedIconPath": "assets/images/tabbar/music_active.png"
+      },
+      {
+        "pagePath": "pages/mainVideo/mainVideo",
+        "text": "音乐",
+        "iconPath": "/assets/images/tabbar/video_normal.png",
+        "selectedIconPath": "assets/images/tabbar/video_active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "edison_cheng",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

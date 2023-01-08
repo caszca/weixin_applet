@@ -1,0 +1,22 @@
+//注意wxs语法不支持es6及其以上
+function formatShow(num){  //对播放量进行修改展示，519780->51.9万
+  if(num>=100000000) return (num/100000000).toFixed(1)+"亿"
+  else if(num>=10000)return (num/10000).toFixed(1)+"万"
+  else return num
+}
+
+//video时长修改  316000(毫秒)->05:16
+function formatDuration(num){
+  num=num/1000
+  var minute=Math.floor(num/60)
+  var seconds=Math.floor(num%60)
+  if(minute<10)minute="0"+minute
+  if(seconds<10)seconds="0"+seconds
+  return minute+":"+seconds
+}
+
+
+module.exports={
+  formatShow:formatShow,
+  formatDuration:formatDuration
+}

@@ -1,0 +1,8 @@
+<!--pages/musicSearch/musicSearch.wxml-->
+<view class="page">
+  <van-search
+  value="{{ value }}"
+  shape="round"
+  background="#fff"
+  placeholder="请输入搜索关键词"
+/></view>

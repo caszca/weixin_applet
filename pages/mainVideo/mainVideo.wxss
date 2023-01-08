@@ -1,0 +1,16 @@
+/* pages/mainVideo/mainVideo.wxss */
+.video{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.video .videoItem:nth-child(odd){
+  margin-left: 16rpx;
+  width: 45vw;
+}
+
+.video .videoItem:nth-child(even){
+  margin-right: 16rpx;
+  width: 45vw;
+}

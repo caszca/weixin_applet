@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "videoItem":"/components/videoItem/videoItem"
+  },
+  "enablePullDownRefresh": true
+}

@@ -1,0 +1,21 @@
+/* components/MusicTtitle/musicTitle.wxss */
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx 0;
+}
+.title{
+  color:#000;
+  font-size: 38rpx;
+  font-weight: 600;
+}
+.recommend{
+  display: flex;
+  align-items: center;
+  color: #999;
+  font-size: 34rpx;
+}
+.arrow_right{
+  height: 56rpx;
+}

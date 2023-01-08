@@ -1,0 +1,13 @@
+/* pages/playlistDetail/playlistDetail.wxss */
+
+ .content{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+
+   width: 100vw;
+} 
+.item{
+  width: 47vw;
+  margin-bottom: 30rpx;
+}

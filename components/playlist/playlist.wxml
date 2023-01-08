@@ -1,0 +1,13 @@
+<!--components/playlist/playlist.wxml-->
+
+<view>
+<scroll-view scroll-x enable-flex class="scroll" style="width:{{screenWidth}}px"> 
+<!-- 有毛病这里,.list中加入display:flexscroll-view就无限加长 -->
+  <block wx:for="{{music}}" wx:key="id">
+  <view class="playlist">
+    <playlistItem  playlist="{{item}}"/>
+  </view>
+</block>
+</scroll-view>
+</view>
+
